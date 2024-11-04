@@ -3,21 +3,24 @@ malik.h@webdevpro.net
 
 Freelance 
 
-=> Module 1 / 5 / 6 / 7 / 8
+# les modules
 
-=> module 1 => outils (8 jours) en Novembre
-=> module 5 => Base de données (fin janvier / février 2025)
-=> module 6 => PHP (base / poo / projet à la main)
-=> module 7 => Symfony 
-=> stage (2 mois) => 17 Mars => 2 juin
-=> module 8 => déploiement / révision / projet 
+- => Module 1 / 5 / 6 / 7 / 8
 
-=> Jury 
+- => module 1 => outils (8 jours) en Novembre
+- => module 5 => Base de données (fin janvier / février 2025)
+- => module 6 => PHP (base / poo / projet à la main)
+- => module 7 => Symfony 
+- => stage (2 mois) => 17 Mars => 2 juin
+- => module 8 => déploiement / révision / projet 
 
-=> chaque module => support / eval (suivi pédagogique)
-=> toutes les notes de cours partagé sur un dépôt github (internet)
+- => Jury 
 
-Objectif : 
+- => chaque module => support / eval (suivi pédagogique)
+- => toutes les notes de cours partagé sur un dépôt github (internet)
+
+# Objectif : 
+
 => faire des sites internet 
 
 ----------
