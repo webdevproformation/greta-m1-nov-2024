@@ -46,3 +46,8 @@ le plus tôt c'est le mieux
 
 - section présente dans le cahier de charges qui est apprécié par le Jury 
 - facultative
+
+
+## un projet = un étudiant
+
+- pas possible d'avoir 1 projet présenté par plusieurs étudiants 
