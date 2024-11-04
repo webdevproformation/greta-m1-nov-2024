@@ -8,7 +8,7 @@
 
 - 2 jurés (professionnel (freelance) / professeur)
 
-##  présentation powerpoint (10min)
+##  présentation powerpoint (10 min)
 
 - présenter vous (qui)
 - présenter le projet (projet)
@@ -24,7 +24,7 @@
 - se mettre dans la peau d'un client
 - se mettre dans la peau d'un admin 
 
-## question réponse (10min)
+## question réponse (10 min)
 
 - le futur (entreprise / nouvelle formation)
 - difficultés rencontrées
