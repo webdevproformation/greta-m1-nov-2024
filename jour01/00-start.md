@@ -16,6 +16,13 @@ Freelance
 
 - => Jury 
 
+# le REAC (REFERENTIEL EMPLOI ACTIVITES COMPETENCES)
+
+https://certifpro.francecompetences.fr/api/fiches/refActivity/24208/465344
+
+
+
+
 - => chaque module => support / eval (suivi pédagogique)
 - => toutes les notes de cours partagé sur un dépôt github (internet)
 

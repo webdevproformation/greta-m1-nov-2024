@@ -28,7 +28,21 @@ le plus tôt c'est le mieux
         - ADMIN => role de super gestionnaire (tout faire)
         - GESTIONNAIRE => juste créer des articles MAIS ne peut pas créer / modifier le mot de passe des gestionnaires 
         - 
-    - visiteur / CLIENT / ADMIN 
+    - ROLE : visiteur / CLIENT / ADMIN 
+
+## SUR QUOI ??? 
+
+- projet personnel (pas besoin d'avoir réalisé un projet pour le compte d'une société)
+- site internet de gestion de location de livre 
+- site ecommerce => textile / produit alimentaire ...
+- site de reservation => voiture location / salle de réunion 
+- site vitrine => présentation d'une société => hotel / entreprise factice
+    - présentation / formulaire de contact / blog / présentation des chambres
+- site de gestion pour le compte d'une école factice 
+    - inscription / associer à formation / facturation 
 
 
-## veillez technologies
+## veillez technologiques
+
+- section présente dans le cahier de charges qui est apprécié par le Jury 
+- facultative
