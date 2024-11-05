@@ -77,3 +77,4 @@ https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-use-case-d
     - le sprint soit toujours fluide 
 - Equipe projet 
     - développeurs 
+    
