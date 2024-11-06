@@ -61,5 +61,12 @@
             => https://www.photopea.com/
 
 
+# cas pratique 
+
+- vous devez réaliser le site internet pour le compte d'une agence de voyage 
+- le client vous demande de réaliser son site internet et de lui proposer un logo temporaire pour habiler le site  
+- réaliser un logo simple en utilisant le flaticon.com, ne pas hésiter à le personnaliser via le site photopea.com
+- une fois que votre logo est fini => veillez le déposer sur ce salon
+
 
     1. Remerciement
