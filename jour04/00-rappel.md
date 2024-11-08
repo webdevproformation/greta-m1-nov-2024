@@ -18,13 +18,16 @@
 
 # je vais créer un monde parallèle et me positionne dessus 
 
+```
 git branch accueil => créer une nouvelle branch qui s'appelle accueil
 git checkout accueil => je me positionne sur la branch accueil 
+```
 
 # travailler sur la branch
 
 # fini
 
+```
 -- tout valider
 git add 
 git commit 
@@ -37,3 +40,4 @@ git merge accueil
 
 -- supprimer la branch accueil 
 git branch -d accueil
+```
