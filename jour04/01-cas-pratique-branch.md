@@ -16,4 +16,4 @@
 - vous avez carte blanche pour le design
 
 - il vous demande de créer un branch sur le dépot git local "contact" pour travailler sur cette demande
-- une fois que le codage est finalisé => veuillez fusionner la branch "contact" avec la branch principal du projet
+- une fois que le codage est finalisé => veuillez fusionner la branch "contact" avec la branch principale du projet
