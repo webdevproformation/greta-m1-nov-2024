@@ -94,3 +94,5 @@ git checkout 18b2f38
 => branch 
 => connecté git AVEC github 
 => comment travailler à plusieurs sur un projet (travail collaboratif)
+
+=> bonne soirée !!!!!!!!!!!!!!!!!!! 
