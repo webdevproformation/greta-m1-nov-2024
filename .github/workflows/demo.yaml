@@ -10,4 +10,10 @@ jobs:
             name: Dire bonjour
             run: |
                 echo "bonjour"
-                echo "les amis" 
+                echo "les amis"
+        - 
+            name: cow say
+            uses: mscoutermarsh/cowsays-action@master
+            with:
+                text: 'ship ship ship!'
+                color: 'red' 
