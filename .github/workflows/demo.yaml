@@ -1,0 +1,13 @@
+name: demo
+on:
+    push:
+        branches: ["main"]
+jobs:
+    nom-job:
+        runs-on: ubuntu-latest
+        steps:
+        -
+            name: Dire bonjour
+            run: |
+                echo "bonjour"
+                echo "les amis" 

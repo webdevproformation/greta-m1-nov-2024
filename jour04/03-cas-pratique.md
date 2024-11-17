@@ -11,3 +11,8 @@
 - veuillez créer une branch pour cette nouvelle fonctionnalité 
 intitulée "newsletter"
 - une fois la fonctionnalité finalisée => la fusionner avec la branch principale 
+
+
+Auto-merging style.css
+CONFLICT (content): Merge conflict in style.css
+Automatic merge failed; fix conflicts and then commit the result.
