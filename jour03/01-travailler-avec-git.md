@@ -56,3 +56,7 @@ gitk
 => git branch 
 
 => 13h30 bon appétit !!!!
+
+
+
+find / -name ".git" -type d

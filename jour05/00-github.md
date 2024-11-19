@@ -34,9 +34,9 @@ git push -u origin main
 
 # synthèse
 
-créer un dépôt sur github
-liaison entre depôt local et le dépôt distant sur github
-envoyer le projet recette de notre ordinateur vers le dépôt distant 
+- créer un dépôt sur github
+- liaison entre depôt local et le dépôt distant sur github
+- envoyer le projet recette de notre ordinateur vers le dépôt distant 
 
 # pour info c'est 3 commandes doivent être réalisée QUE une seule fois 
 
@@ -45,3 +45,13 @@ git remote add origin https://github.com/webdevproformation/recette-greta-nov-20
 git push -u origin main
 
 git add .
+git commit -m "message"
+git push 
+
+
+cas pratique :
+
+- ajouter dans la page d'accueil du site de recette le lien contact dans la barre de menu
+- ajouter dans la page recette la barre en entier 
+- une fois que vous avez réaliser le modification 
+- faire un add / commit ET l'envoyer du votre dépot github 
