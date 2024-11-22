@@ -1,8 +1,5 @@
-# vagrant pour installer notre serveur 
-
-```rb
 Vagrant.configure("2") do |config|
-
+    
   # Système d'exploitation 
   # en fonction du Système d'exploitation ET de sa version la manière d'installer les logiciels n'est pas la même
   # certains logiciels ne sont pas disponibles par exemple de vieille version de PHP  5 pour l'OS
@@ -77,5 +74,3 @@ Vagrant.configure("2") do |config|
      unzip -q /var/www/html/pma.zip
   SHELL
 end
-
-```
