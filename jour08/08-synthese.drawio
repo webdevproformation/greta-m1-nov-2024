@@ -1,0 +1,69 @@
+<mxfile host="65bd71144e">
+    <diagram id="P6w9cvLVsQxOpKr4M3YG" name="Page-1">
+        <mxGraphModel dx="976" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="firefox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Apache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #008000;&quot;&gt;http://192.168.33.10/04-connexion.php&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="140" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="04-connexion.php" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="165" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #008000;&quot;&gt;# 1 connexion à la base&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$url&lt;/span&gt; = &lt;span style=&quot;color: #a31515;&quot;&gt;&quot;mysql:host=localhost;dbname=premier;charset=utf8mb4&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$connexion&lt;/span&gt; = &lt;span style=&quot;color: #0000ff;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #267f99;&quot;&gt;PDO&lt;/span&gt;(&lt;span style=&quot;color: #001080;&quot;&gt;$url&lt;/span&gt; , &lt;span style=&quot;color: #a31515;&quot;&gt;&quot;newuser&quot;&lt;/span&gt;, &lt;span style=&quot;color: #a31515;&quot;&gt;&quot;password&quot;&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #008000;&quot;&gt;# var_dump($connexion);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="300" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="810" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="premier" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="280" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="user" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="410" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="610" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #008000;&quot;&gt;# 2 requete SQL pour récupérer les profils utilisateurs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$request&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$connexion&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;query&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;SELECT&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;FROM&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt; user&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$users&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$request&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;fetchAll&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="410" width="460" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;pre id=&quot;line1&quot;&gt;&lt;span title=&quot;Balise ouvrante rencontrée sans avoir rencontré de doctype auparavant. «&amp;nbsp;&lt;!DOCTYPE html&gt;&amp;nbsp;» attendu.&quot; class=&quot;error&quot;&gt;&amp;lt;&lt;span class=&quot;start-tag&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;liste des utilisateurs : &lt;/span&gt;&lt;span&gt;&amp;lt;/&lt;span class=&quot;end-tag&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;&#10;&lt;span id=&quot;line2&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;span class=&quot;start-tag&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;&#10;&lt;span id=&quot;line3&quot;&gt;&lt;/span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;span class=&quot;start-tag&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;Alain DOE &lt;/span&gt;&lt;span&gt;&amp;lt;/&lt;span class=&quot;end-tag&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;&#10;&lt;span id=&quot;line4&quot;&gt;&lt;/span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;span class=&quot;start-tag&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;Béatrice DOE &lt;/span&gt;&lt;span&gt;&amp;lt;/&lt;span class=&quot;end-tag&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;&#10;&lt;span id=&quot;line5&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;lt;/&lt;span class=&quot;end-tag&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="810" width="280" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #008000;&quot;&gt;# 3 afficher les profils en html&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;liste des utilisateurs : &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #af00db;&quot;&gt;foreach&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$users&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; as &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$user&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;) : &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;?=&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$user&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;prenom&quot;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;?=&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;$user&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;nom&quot;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #af00db;&quot;&gt;endforeach&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="530" width="460" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

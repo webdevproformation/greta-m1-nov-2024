@@ -65,6 +65,8 @@ apt install php8.3 libapache2-mod-php8.3 php8.3-cli php8.3-{zip,bz2,gd,curl,mbst
 
 ### pour les ordinateurs de l'école (Linux UBUNTU 24)
 
+[how-to-install-vagrant-on-ubuntu](https://phoenixnap.com/kb/how-to-install-vagrant-on-ubuntu)
+
 ```sh
 sudo su -
 apt install virtualbox # installer Version 7 de virtual box
